@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45A44D1DE7BD7E3514FED372 /* libPods-HJLoginDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4AE176445FFFC907C64FA3 /* libPods-HJLoginDemo.a */; };
+		D2A5826C202AA93B008693D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A5826B202AA93B008693D1 /* AppDelegate.m */; };
+		D2A5826F202AA93B008693D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A5826E202AA93B008693D1 /* ViewController.m */; };
+		D2A58272202AA93B008693D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A58270202AA93B008693D1 /* Main.storyboard */; };
+		D2A58274202AA93B008693D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A58273202AA93B008693D1 /* Assets.xcassets */; };
+		D2A58277202AA93B008693D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A58275202AA93B008693D1 /* LaunchScreen.storyboard */; };
+		D2A5827A202AA93B008693D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A58279202AA93B008693D1 /* main.m */; };
+		D2A58284202AA93B008693D1 /* HJLoginDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A58283202AA93B008693D1 /* HJLoginDemoTests.m */; };
+		D2A5828F202AA93B008693D1 /* HJLoginDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A5828E202AA93B008693D1 /* HJLoginDemoUITests.m */; };
+		D2A582A9202AC993008693D1 /* HJBaseLogin_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A582A5202AC993008693D1 /* HJBaseLogin_VC.m */; };
+		D2A582AC202AC9C3008693D1 /* HJLoginExample01_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A582AB202AC9C3008693D1 /* HJLoginExample01_VC.m */; };
+		D2A582BD202C29B3008693D1 /* login_bg_gif_01.gif in Resources */ = {isa = PBXBuildFile; fileRef = D2A582BA202C29B3008693D1 /* login_bg_gif_01.gif */; };
+		D2A582C4202C339C008693D1 /* login_bg03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2A582C0202C339B008693D1 /* login_bg03.jpg */; };
+		D2A582C5202C339C008693D1 /* login_bg02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2A582C1202C339B008693D1 /* login_bg02.jpg */; };
+		D2A582C6202C339C008693D1 /* login_bg01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2A582C2202C339B008693D1 /* login_bg01.jpg */; };
+		D2A582C9202C3567008693D1 /* HJLoginExample02_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A582C8202C3567008693D1 /* HJLoginExample02_VC.m */; };
+		D2A582D0202C4499008693D1 /* NSArray+HJImages.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A582CF202C4499008693D1 /* NSArray+HJImages.m */; };
+		D2A582D6202D4D3F008693D1 /* HJLoginExample03_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A582D5202D4D3F008693D1 /* HJLoginExample03_VC.m */; };
+		D2A582D9202D6CFA008693D1 /* HJLoginExample04_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A582D8202D6CFA008693D1 /* HJLoginExample04_VC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2A58280202AA93B008693D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2A5825F202AA93A008693D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2A58266202AA93A008693D1;
+			remoteInfo = HJLoginDemo;
+		};
+		D2A5828B202AA93B008693D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2A5825F202AA93A008693D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2A58266202AA93A008693D1;
+			remoteInfo = HJLoginDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4981E9C07AA52073A6DFB705 /* Pods-HJLoginDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJLoginDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HJLoginDemo/Pods-HJLoginDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7F4AE176445FFFC907C64FA3 /* libPods-HJLoginDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HJLoginDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A58267202AA93A008693D1 /* HJLoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJLoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A5826A202AA93A008693D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2A5826B202AA93B008693D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2A5826D202AA93B008693D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2A5826E202AA93B008693D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2A58271202AA93B008693D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2A58273202AA93B008693D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2A58276202AA93B008693D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2A58278202AA93B008693D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2A58279202AA93B008693D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2A5827F202AA93B008693D1 /* HJLoginDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJLoginDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A58283202AA93B008693D1 /* HJLoginDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJLoginDemoTests.m; sourceTree = "<group>"; };
+		D2A58285202AA93B008693D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2A5828A202AA93B008693D1 /* HJLoginDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJLoginDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A5828E202AA93B008693D1 /* HJLoginDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJLoginDemoUITests.m; sourceTree = "<group>"; };
+		D2A58290202AA93B008693D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2A582A5202AC993008693D1 /* HJBaseLogin_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJBaseLogin_VC.m; sourceTree = "<group>"; };
+		D2A582A6202AC993008693D1 /* HJBaseLogin_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJBaseLogin_VC.h; sourceTree = "<group>"; };
+		D2A582AA202AC9C3008693D1 /* HJLoginExample01_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJLoginExample01_VC.h; sourceTree = "<group>"; };
+		D2A582AB202AC9C3008693D1 /* HJLoginExample01_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJLoginExample01_VC.m; sourceTree = "<group>"; };
+		D2A582AD202ACBF3008693D1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D2A582BA202C29B3008693D1 /* login_bg_gif_01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = login_bg_gif_01.gif; sourceTree = "<group>"; };
+		D2A582C0202C339B008693D1 /* login_bg03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_bg03.jpg; sourceTree = "<group>"; };
+		D2A582C1202C339B008693D1 /* login_bg02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_bg02.jpg; sourceTree = "<group>"; };
+		D2A582C2202C339B008693D1 /* login_bg01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_bg01.jpg; sourceTree = "<group>"; };
+		D2A582C7202C3567008693D1 /* HJLoginExample02_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJLoginExample02_VC.h; sourceTree = "<group>"; };
+		D2A582C8202C3567008693D1 /* HJLoginExample02_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJLoginExample02_VC.m; sourceTree = "<group>"; };
+		D2A582CE202C4499008693D1 /* NSArray+HJImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HJImages.h"; sourceTree = "<group>"; };
+		D2A582CF202C4499008693D1 /* NSArray+HJImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HJImages.m"; sourceTree = "<group>"; };
+		D2A582D4202D4D3F008693D1 /* HJLoginExample03_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJLoginExample03_VC.h; sourceTree = "<group>"; };
+		D2A582D5202D4D3F008693D1 /* HJLoginExample03_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJLoginExample03_VC.m; sourceTree = "<group>"; };
+		D2A582D7202D6CFA008693D1 /* HJLoginExample04_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJLoginExample04_VC.h; sourceTree = "<group>"; };
+		D2A582D8202D6CFA008693D1 /* HJLoginExample04_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJLoginExample04_VC.m; sourceTree = "<group>"; };
+		E2880816D752CBE8CC66634C /* Pods-HJLoginDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJLoginDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HJLoginDemo/Pods-HJLoginDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2A58264202AA93A008693D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A44D1DE7BD7E3514FED372 /* libPods-HJLoginDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A5827C202AA93B008693D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A58287202AA93B008693D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAE4812CC21055217833D46B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4981E9C07AA52073A6DFB705 /* Pods-HJLoginDemo.debug.xcconfig */,
+				E2880816D752CBE8CC66634C /* Pods-HJLoginDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D2A5825E202AA93A008693D1 = {
+			isa = PBXGroup;
+			children = (
+				D2A58269202AA93A008693D1 /* HJLoginDemo */,
+				D2A58282202AA93B008693D1 /* HJLoginDemoTests */,
+				D2A5828D202AA93B008693D1 /* HJLoginDemoUITests */,
+				D2A58268202AA93A008693D1 /* Products */,
+				AAE4812CC21055217833D46B /* Pods */,
+				F4D55FE631DEE62A467481BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D2A58268202AA93A008693D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2A58267202AA93A008693D1 /* HJLoginDemo.app */,
+				D2A5827F202AA93B008693D1 /* HJLoginDemoTests.xctest */,
+				D2A5828A202AA93B008693D1 /* HJLoginDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2A58269202AA93A008693D1 /* HJLoginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D2A582A3202AC993008693D1 /* LoginExamples */,
+				D2A5826A202AA93A008693D1 /* AppDelegate.h */,
+				D2A5826B202AA93B008693D1 /* AppDelegate.m */,
+				D2A5826D202AA93B008693D1 /* ViewController.h */,
+				D2A5826E202AA93B008693D1 /* ViewController.m */,
+				D2A58270202AA93B008693D1 /* Main.storyboard */,
+				D2A58273202AA93B008693D1 /* Assets.xcassets */,
+				D2A582B0202ADB57008693D1 /* images */,
+				D2A58275202AA93B008693D1 /* LaunchScreen.storyboard */,
+				D2A58278202AA93B008693D1 /* Info.plist */,
+				D2A58279202AA93B008693D1 /* main.m */,
+				D2A582AD202ACBF3008693D1 /* PrefixHeader.pch */,
+			);
+			path = HJLoginDemo;
+			sourceTree = "<group>";
+		};
+		D2A58282202AA93B008693D1 /* HJLoginDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2A58283202AA93B008693D1 /* HJLoginDemoTests.m */,
+				D2A58285202AA93B008693D1 /* Info.plist */,
+			);
+			path = HJLoginDemoTests;
+			sourceTree = "<group>";
+		};
+		D2A5828D202AA93B008693D1 /* HJLoginDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2A5828E202AA93B008693D1 /* HJLoginDemoUITests.m */,
+				D2A58290202AA93B008693D1 /* Info.plist */,
+			);
+			path = HJLoginDemoUITests;
+			sourceTree = "<group>";
+		};
+		D2A582A3202AC993008693D1 /* LoginExamples */ = {
+			isa = PBXGroup;
+			children = (
+				D2A582CD202C4499008693D1 /* Others */,
+				D2A582A4202AC993008693D1 /* Bases */,
+				D2A582A7202AC993008693D1 /* Controllers */,
+				D2A582A8202AC993008693D1 /* Views */,
+			);
+			name = LoginExamples;
+			path = mainClass/LoginExamples;
+			sourceTree = "<group>";
+		};
+		D2A582A4202AC993008693D1 /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				D2A582A6202AC993008693D1 /* HJBaseLogin_VC.h */,
+				D2A582A5202AC993008693D1 /* HJBaseLogin_VC.m */,
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
+		D2A582A7202AC993008693D1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D2A582AA202AC9C3008693D1 /* HJLoginExample01_VC.h */,
+				D2A582AB202AC9C3008693D1 /* HJLoginExample01_VC.m */,
+				D2A582C7202C3567008693D1 /* HJLoginExample02_VC.h */,
+				D2A582C8202C3567008693D1 /* HJLoginExample02_VC.m */,
+				D2A582D4202D4D3F008693D1 /* HJLoginExample03_VC.h */,
+				D2A582D5202D4D3F008693D1 /* HJLoginExample03_VC.m */,
+				D2A582D7202D6CFA008693D1 /* HJLoginExample04_VC.h */,
+				D2A582D8202D6CFA008693D1 /* HJLoginExample04_VC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D2A582A8202AC993008693D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D2A582B0202ADB57008693D1 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D2A582BA202C29B3008693D1 /* login_bg_gif_01.gif */,
+				D2A582C2202C339B008693D1 /* login_bg01.jpg */,
+				D2A582C1202C339B008693D1 /* login_bg02.jpg */,
+				D2A582C0202C339B008693D1 /* login_bg03.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D2A582CD202C4499008693D1 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				D2A582CE202C4499008693D1 /* NSArray+HJImages.h */,
+				D2A582CF202C4499008693D1 /* NSArray+HJImages.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F4D55FE631DEE62A467481BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F4AE176445FFFC907C64FA3 /* libPods-HJLoginDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2A58266202AA93A008693D1 /* HJLoginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A58293202AA93B008693D1 /* Build configuration list for PBXNativeTarget "HJLoginDemo" */;
+			buildPhases = (
+				EDDE8C86B64CFC6D5DB08F03 /* [CP] Check Pods Manifest.lock */,
+				D2A58263202AA93A008693D1 /* Sources */,
+				D2A58264202AA93A008693D1 /* Frameworks */,
+				D2A58265202AA93A008693D1 /* Resources */,
+				BF203116708695B845EBC45F /* [CP] Embed Pods Frameworks */,
+				724F1447A1A76429858D97EA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HJLoginDemo;
+			productName = HJLoginDemo;
+			productReference = D2A58267202AA93A008693D1 /* HJLoginDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2A5827E202AA93B008693D1 /* HJLoginDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A58296202AA93B008693D1 /* Build configuration list for PBXNativeTarget "HJLoginDemoTests" */;
+			buildPhases = (
+				D2A5827B202AA93B008693D1 /* Sources */,
+				D2A5827C202AA93B008693D1 /* Frameworks */,
+				D2A5827D202AA93B008693D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2A58281202AA93B008693D1 /* PBXTargetDependency */,
+			);
+			name = HJLoginDemoTests;
+			productName = HJLoginDemoTests;
+			productReference = D2A5827F202AA93B008693D1 /* HJLoginDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2A58289202AA93B008693D1 /* HJLoginDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A58299202AA93B008693D1 /* Build configuration list for PBXNativeTarget "HJLoginDemoUITests" */;
+			buildPhases = (
+				D2A58286202AA93B008693D1 /* Sources */,
+				D2A58287202AA93B008693D1 /* Frameworks */,
+				D2A58288202AA93B008693D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2A5828C202AA93B008693D1 /* PBXTargetDependency */,
+			);
+			name = HJLoginDemoUITests;
+			productName = HJLoginDemoUITests;
+			productReference = D2A5828A202AA93B008693D1 /* HJLoginDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2A5825F202AA93A008693D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = WHJ;
+				TargetAttributes = {
+					D2A58266202AA93A008693D1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D2A5827E202AA93B008693D1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2A58266202AA93A008693D1;
+					};
+					D2A58289202AA93B008693D1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2A58266202AA93A008693D1;
+					};
+				};
+			};
+			buildConfigurationList = D2A58262202AA93A008693D1 /* Build configuration list for PBXProject "HJLoginDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2A5825E202AA93A008693D1;
+			productRefGroup = D2A58268202AA93A008693D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2A58266202AA93A008693D1 /* HJLoginDemo */,
+				D2A5827E202AA93B008693D1 /* HJLoginDemoTests */,
+				D2A58289202AA93B008693D1 /* HJLoginDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2A58265202AA93A008693D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A58277202AA93B008693D1 /* LaunchScreen.storyboard in Resources */,
+				D2A582C4202C339C008693D1 /* login_bg03.jpg in Resources */,
+				D2A58274202AA93B008693D1 /* Assets.xcassets in Resources */,
+				D2A582BD202C29B3008693D1 /* login_bg_gif_01.gif in Resources */,
+				D2A582C6202C339C008693D1 /* login_bg01.jpg in Resources */,
+				D2A58272202AA93B008693D1 /* Main.storyboard in Resources */,
+				D2A582C5202C339C008693D1 /* login_bg02.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A5827D202AA93B008693D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A58288202AA93B008693D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		724F1447A1A76429858D97EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HJLoginDemo/Pods-HJLoginDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF203116708695B845EBC45F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HJLoginDemo/Pods-HJLoginDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDDE8C86B64CFC6D5DB08F03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HJLoginDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2A58263202AA93A008693D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A582D0202C4499008693D1 /* NSArray+HJImages.m in Sources */,
+				D2A5826F202AA93B008693D1 /* ViewController.m in Sources */,
+				D2A582D6202D4D3F008693D1 /* HJLoginExample03_VC.m in Sources */,
+				D2A582D9202D6CFA008693D1 /* HJLoginExample04_VC.m in Sources */,
+				D2A582A9202AC993008693D1 /* HJBaseLogin_VC.m in Sources */,
+				D2A582AC202AC9C3008693D1 /* HJLoginExample01_VC.m in Sources */,
+				D2A582C9202C3567008693D1 /* HJLoginExample02_VC.m in Sources */,
+				D2A5827A202AA93B008693D1 /* main.m in Sources */,
+				D2A5826C202AA93B008693D1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A5827B202AA93B008693D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A58284202AA93B008693D1 /* HJLoginDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A58286202AA93B008693D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A5828F202AA93B008693D1 /* HJLoginDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2A58281202AA93B008693D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2A58266202AA93A008693D1 /* HJLoginDemo */;
+			targetProxy = D2A58280202AA93B008693D1 /* PBXContainerItemProxy */;
+		};
+		D2A5828C202AA93B008693D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2A58266202AA93A008693D1 /* HJLoginDemo */;
+			targetProxy = D2A5828B202AA93B008693D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2A58270202AA93B008693D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2A58271202AA93B008693D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2A58275202AA93B008693D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2A58276202AA93B008693D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2A58291202AA93B008693D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2A58292202AA93B008693D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2A58294202AA93B008693D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4981E9C07AA52073A6DFB705 /* Pods-HJLoginDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BY6XUZ4WR;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = HJLoginDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.psl.whj.HJLoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2A58295202AA93B008693D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2880816D752CBE8CC66634C /* Pods-HJLoginDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BY6XUZ4WR;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = HJLoginDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.psl.whj.HJLoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2A58297202AA93B008693D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PZMTS6D3B;
+				INFOPLIST_FILE = HJLoginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.psl.whj.HJLoginDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HJLoginDemo.app/HJLoginDemo";
+			};
+			name = Debug;
+		};
+		D2A58298202AA93B008693D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PZMTS6D3B;
+				INFOPLIST_FILE = HJLoginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.psl.whj.HJLoginDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HJLoginDemo.app/HJLoginDemo";
+			};
+			name = Release;
+		};
+		D2A5829A202AA93B008693D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PZMTS6D3B;
+				INFOPLIST_FILE = HJLoginDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.psl.whj.HJLoginDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HJLoginDemo;
+			};
+			name = Debug;
+		};
+		D2A5829B202AA93B008693D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PZMTS6D3B;
+				INFOPLIST_FILE = HJLoginDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.psl.whj.HJLoginDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HJLoginDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2A58262202AA93A008693D1 /* Build configuration list for PBXProject "HJLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A58291202AA93B008693D1 /* Debug */,
+				D2A58292202AA93B008693D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A58293202AA93B008693D1 /* Build configuration list for PBXNativeTarget "HJLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A58294202AA93B008693D1 /* Debug */,
+				D2A58295202AA93B008693D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A58296202AA93B008693D1 /* Build configuration list for PBXNativeTarget "HJLoginDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A58297202AA93B008693D1 /* Debug */,
+				D2A58298202AA93B008693D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A58299202AA93B008693D1 /* Build configuration list for PBXNativeTarget "HJLoginDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A5829A202AA93B008693D1 /* Debug */,
+				D2A5829B202AA93B008693D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2A5825F202AA93A008693D1 /* Project object */;
+}
